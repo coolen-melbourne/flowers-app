@@ -1,0 +1,96 @@
+:root {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+.app {
+  min-height: 20px;
+}
+
+.box {
+  width: 100%;
+  max-width: 290px;
+  height: 10px;
+}
+
+.values {
+  color: red;
+}
+
+.slider {
+  width: 100%;
+  height: 5px;
+  background-color: #d96581;
+  margin-top: 20px;
+}
+.slider .thumb {
+  width: 23px;
+  height: 23px;
+  cursor: pointer;
+  background-color: #fff;
+  border-radius: 50%;
+  border: 2px solid #d96581;
+}
+
+button {
+  cursor: pointer;
+}
+
+.outer-container {
+  max-width: 800px;
+  margin: auto;
+  display: flex;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 1px 3px 6px rgba(0, 0, 0, 0.3);
+  overflow: hidden;
+}
+
+.outer-container > div {
+  flex: 1;
+  padding: 20px;
+}
+
+.outer-container .carousel-wrapper {
+  background: var(--orange);
+  display: flex;
+  flex-direction: column;
+}
+
+.outer-container .content {
+  background: var(--white);
+}
+
+.carousel-button {
+  display: flex;
+  align-self: center;
+  padding: 10px;
+  max-width: 50px;
+  border-radius: 30px;
+  background: var(--orange);
+  border: 2px solid var(--white);
+}
+
+.carousel-button svg {
+  height: 26px;
+  width: 26px;
+}
+
+.carousel-button path {
+  fill: var(--white);
+}
+
+.slider {
+  display: flex;
+  overflow-x: hidden;
+  height: 400px;
+}
+
+.slide {
+  min-height: 100%;
+  transition: transform 0.3s ease;
+  padding: 50px;
+  box-sizing: border-box;
+}
+
+.nextButton {
+  margin-top: 10px;
+}
